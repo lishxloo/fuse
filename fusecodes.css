@@ -1,0 +1,137 @@
+html #skateboard,
+html[data-theme="light"] #skateboard {
+  --textcolor: #444;
+  --background: 242, 242, 242;
+}
+html[data-theme="dark"] #skateboard {
+  --textcolor: #f1f1f1;
+  --background: 24, 24, 24;
+}
+#skateboard {
+  --grpicn: url("https://img.nickpic.host/jsiOhc.png");
+  --gificn: url("https://img.nickpic.host/jsiExz.gif");
+  --gradmid: linear-gradient(
+    90deg,
+    rgba(var(--mgrgb), 0.65) 0%,
+    rgba(var(--mgrgb2), 0.65) 50%,
+    rgba(var(--mgrgb3), 0.65) 100%
+  );
+  box-sizing: border-box !important;
+}
+
+.kickflip {
+  margin: 5px auto;
+  width: 450px; 
+  height: auto;
+  background-image: var(--gradmid);
+  border-radius: 15px;
+  box-sizing: border-box !important;
+  
+}
+.heely {
+  width: 100%;
+  height: 55px;
+  position: relative;
+  margin-bottom: -40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box !important;
+}
+.bearings {
+  display: flex;
+  position: relative;
+  box-sizing: border-box !important;
+}
+.bearings img {
+  position: relative;
+  top: 70px;
+  left: 10px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 15px solid rgba(var(--background), 1);
+  height: 90px;
+  width: 90px;
+  z-index: 1;
+  box-sizing: border-box !important;
+}
+.ollie {
+  position: relative;
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+  font: 13px var(--fontsrf);
+  box-sizing: border-box !important;
+}
+.ollie x {
+  background: rgba(var(--background), 1);
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+  right: 15px;
+  top: 20px;
+}
+.trucks {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: -70px;
+}
+.goofie {
+  position: relative;
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+  font: 13px var(--fontsrf);
+}
+.goofie x {
+  background: rgba(var(--background), 1);
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+  bottom: 20px;
+  left: 25px;
+}
+.goofie a {
+  color: rgba(var(--textcolor), 1) !important;
+}
+.grip {
+  padding-top: 27px;
+  line-height: 0;
+}
+
+.popshoveit {
+  width: 100%;
+  background: rgba(var(--background), 1); 
+  padding: 50px;
+  margin-top: -45px;
+  box-sizing: border-box !important;
+}
+
+.heelflip {
+  position: relative;
+  font: 500 13px/180% var(--fontfam);
+  color: rgba(var(--textcolor), 1);
+  text-align: justify;
+}
+
+.heelflip b {
+  font: 700 13.5px var(--fontfam);
+  background: var(--gradmid) !important;
+  color: rgba(var(--textcolor), 1);
+  padding: 1px 2px;
+}
+
+.heelflip i {
+  font: 700 12.5px var(--fontfam);
+  color: var(--mgrgb);
+} 
+.grip-2 {
+  position: relative;
+  top: -35px;
+  line-height: 0;
+}
